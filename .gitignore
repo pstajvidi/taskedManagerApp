@@ -1,0 +1,96 @@
+# ========================
+# Existing Content (Enhanced)
+# ========================
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# ========================
+# Firebase Additions
+# ========================
+# Firebase configuration
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+.firebase/
+firebase-debug.log
+firebase-app-debug.log
+
+# ========================
+# Enhanced Flutter/Dart/Pub
+# ========================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+.fvm/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# ========================
+# Enhanced Android
+# ========================
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Additional Android ignores
+android/local.properties
+android/key.properties
+android/gradle.properties
+android/.gradle/
+android/app/src/debug/
+android/app/src/profile/
+
+# ========================
+# iOS Additions
+# ========================
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+
+# ========================
+# Environment Files
+# ========================
+.env
+.env.local
+.env*.local
+.env.production
+.env.development
+
+# ========================
+# System Files
+# ========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
